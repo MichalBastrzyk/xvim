@@ -84,4 +84,13 @@ return {
       require("nvim-treesitter.configs").setup(opts)
     end,
   },
+  {
+    "stevearc/oil.nvim",
+    keys = {
+      { "<C-p>", "<cmd>Oil<cr>", desc = "Oil File Browser" },
+    },
+    opts = {},
+    -- Optional dependencies
+    dependencies = { "nvim-tree/nvim-web-devicons" },
+  },
 }

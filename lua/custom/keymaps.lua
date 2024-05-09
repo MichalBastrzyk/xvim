@@ -1,5 +1,4 @@
 -- [[ Basic Keymaps ]]
-vim.keymap.set("n", "<C-p>", "<cmd>Ex<CR>")
 vim.keymap.set("n", "<C-s>", "<cmd>w<CR>")
 
 -- Center with ctrl + d and ctrl + u
