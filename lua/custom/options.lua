@@ -1,0 +1,41 @@
+-- [[ Setting options ]]
+vim.opt.clipboard = ""
+vim.opt.number = true
+vim.opt.relativenumber = true
+vim.opt.title = true
+vim.opt.hlsearch = true
+vim.opt.backup = false
+vim.opt.showcmd = false
+vim.opt.cmdheight = 1
+vim.opt.backupskip = "/tmp/*,/private/tmp/*"
+vim.opt.smarttab = true
+vim.opt.breakindent = true
+vim.opt.backspace = "start,eol,indent"
+vim.opt.path:append({ "**" })
+vim.opt.wildignore:append({ "*/node_modules/*" })
+vim.opt.ignorecase = true
+
+-- Code folding
+vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
+vim.opt.foldmethod = "expr"
+vim.o.foldlevel = 99
+vim.o.foldlevelstart = 99
+vim.o.foldenable = true
+
+vim.opt.winblend = 0
+vim.opt.wildoptions = "pum"
+vim.opt.pumblend = 5
+vim.opt.background = "dark"
+vim.opt.mouse = "a"
+vim.opt.showmode = false
+vim.opt.undofile = true
+vim.opt.smartcase = true
+vim.opt.signcolumn = "yes"
+vim.opt.updatetime = 250
+vim.opt.timeoutlen = 300
+vim.opt.splitright = true
+vim.opt.splitbelow = true
+vim.opt.inccommand = "split"
+vim.opt.cursorline = true
+vim.opt.scrolloff = 10
+vim.opt.hlsearch = true
